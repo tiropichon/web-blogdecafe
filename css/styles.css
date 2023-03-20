@@ -72,8 +72,18 @@ img {
 }
 
 /** Header **/
-.header {
+
+/* Normalizr webp banner */
+.webp .header {
+    background-image: url(../img/banner.webp);
+}
+
+/* Normalizr no-webp banner */
+.no-webp .header {
     background-image: url(../img/banner.jpg);
+}
+
+.header {
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
